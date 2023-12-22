@@ -1,0 +1,168 @@
+{
+  "uuid": "0dbedc97d44285e2db57e1940cada26b",
+  "path": "Offline/Double%20Soil%20Moisture%20Feather%20Shield",
+  "name": "Double Soil Moisture Feather Shield",
+  "content": "",
+  "created_at": "2023-12-22 14:33:38",
+  "updated_at": "2023-12-22 14:34:03",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "651a072443181df43505f23d5ff0df9e",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fbc9a081bfdb44a9b58b590f7333863a": 1,
+        "e691ecce73f74adc83e15434646ffa2d": 1,
+        "3ec77201bbcd4ecd8722658d581a4e60": 4,
+        "a7291ceaee5442a999df26c55c7e675d": 2,
+        "35a1ecdcc3aa45a3b00cd4195e86b3e6": 2,
+        "b0248eb51e084227889f2cb84eab79c4": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x16",
+          1,
+          "HDR-F-2.54_1X16",
+          "H1",
+          {
+            "Supplier Part": "C66987",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x16",
+            "puuid": "29c1c15af3f64c36a30bd7e9025580c2",
+            "uuid": "fbc9a081bfdb44a9b58b590f7333863a"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x10",
+          1,
+          "HDR-F-2.54_1X10",
+          "H2",
+          {
+            "Supplier Part": "C35445",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x10",
+            "puuid": "af1bce44cacb47cda450f7e17ba302b4",
+            "uuid": "e691ecce73f74adc83e15434646ffa2d"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          4,
+          "HDR-F-2.54_1X2",
+          "H3,H4,H5,H6",
+          {
+            "Supplier Part": "C49661",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x2",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ],
+        [
+          "BC337-25_C713610",
+          2,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1,Q2",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C713610",
+            "Manufacturer": "LGE(鲁光)",
+            "Manufacturer Part": "BC337-25",
+            "Contributor": "LCSC",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "BC337-25_C713610",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "35a1ecdcc3aa45a3b00cd4195e86b3e6"
+          }
+        ],
+        [
+          "660",
+          2,
+          "R0603",
+          "R1,R2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          2,
+          "HDR-F-2.54_1X3",
+          "SENSOR1,SENSOR2",
+          {
+            "Supplier Part": "C146690",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-F-2.54_1x3",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ]
+      ],
+      "updateTime": 1703252043,
+      "createTime": 1703252043,
+      "histories": [],
+      "created_at": "2023-12-22 14:34:03",
+      "updated_at": "2023-12-22 14:34:03"
+    },
+    {
+      "uuid": "cd092fa7dc9f3661dd7d7bcc9ddd384e",
+      "puuid": "0dbedc97d44285e2db57e1940cada26b",
+      "title": "1-PCB_PCB_Double Soil Moisture v1.1",
+      "filename": "1-PCB_PCB_Double Soil Moisture v1.1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "398691f1f785460098bbe5ee6590333c": 2,
+        "f83673d09e13450d934ca6be4be5af8f": 2,
+        "29c1c15af3f64c36a30bd7e9025580c2": 1,
+        "af1bce44cacb47cda450f7e17ba302b4": 1,
+        "36b1306a115341f4b4d9407fb34974e0": 4,
+        "6924b36489de4921bb29ca14bf27c33f": 2
+      },
+      "BOM": [],
+      "updateTime": 1703252018,
+      "createTime": 1703252018,
+      "histories": [],
+      "created_at": "2023-12-22 14:33:38",
+      "updated_at": "2023-12-22 14:33:38"
+    }
+  ],
+  "sort": [],
+  "title": "Double Soil Moisture Feather Shield",
+  "foldername": "Double Soil Moisture Feather Shield",
+  "schfilename": "Double Soil Moisture Feather Shield.json",
+  "schfilemtime": 1703252043954
+}

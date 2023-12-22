@@ -1,0 +1,292 @@
+{
+  "uuid": "f8e9f1940b842ab7a599556a02702ba0",
+  "path": "Offline/ATmega_lightSensor_blink",
+  "name": "ATmega_lightSensor_blink",
+  "content": "",
+  "created_at": "2023-12-22 14:46:31",
+  "updated_at": "2023-12-22 14:47:20",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ed0f827edda382627cfcc44e136ca0fb",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b0248eb51e084227889f2cb84eab79c4": 4,
+        "24eeb2ceca08480b92b847b6a310acda": 3,
+        "404aa9221ff94de597b8734806e7c74f": 5,
+        "b88866c5236b482997e36238c73d072f": 1,
+        "ab4318fc90be0d1a313504fa7a2ae80d": 1,
+        "3721972c581d4f99b226effb1db7a790": 2,
+        "cf6eca9c9efe444882712b3d5cec1885": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "BAT",
+          {
+            "Supplier Part": "C124375",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x2",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "LED-TH-3mm_R",
+          2,
+          "LED-TH_BD3.0_RED",
+          "BLINK,SEN",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "204-10SDRD/S530-A3-L",
+            "Supplier Part": "C84774",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-TH-3mm_R",
+            "puuid": "bec79a4ea65a4f65ba290a03b598a762",
+            "uuid": "3721972c581d4f99b226effb1db7a790"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "22p",
+          2,
+          "C0603",
+          "C2,C3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "GND",
+          1,
+          "HDR-M-2.54_1X1",
+          "GND",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "LED-0603_G",
+          1,
+          "LED0603_GREEN",
+          "PWR",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/GHC-YR1S2/3T",
+            "Supplier Part": "C72043",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LED-0603_G",
+            "puuid": "7b706fa666744f94a830dffb572df5db",
+            "uuid": "cf6eca9c9efe444882712b3d5cec1885"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0603",
+          "R1,R4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "220",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "RTS",
+          1,
+          "HDR-M-2.54_1X1",
+          "RTS",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "RXD",
+          1,
+          "HDR-M-2.54_1X1",
+          "RXD",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "TXD",
+          1,
+          "HDR-M-2.54_1X1",
+          "TXD",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "DS1009-28AT1NS-0A2",
+          1,
+          "DIP-28_L35.6-W10.2-P2.54-LS7.6-BL-2",
+          "U2",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "CONNFLY",
+            "Manufacturer Part": "DS1009-28AT1NS-0A2",
+            "Contributor": "LCSC",
+            "Supplier Part": "C72125",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "DS1009-28AT1NS-0A2",
+            "puuid": "b62ea6b996094961a8aa59b4ff7ebc4f",
+            "uuid": "ab4318fc90be0d1a313504fa7a2ae80d"
+          }
+        ],
+        [
+          "VCCIO",
+          1,
+          "HDR-M-2.54_1X1",
+          "VCC",
+          {
+            "Supplier Part": "C81276",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x1",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "HC-49S_L11.4-W4.8",
+          "X1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "TAE(雅晶鑫)",
+            "Manufacturer Part": "TAXM16M2GLFBET2T",
+            "Supplier Part": "C111377",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HC-49SM16MHz20pF30ppm",
+            "puuid": "6bbb24bc2824424ca234524222d49524",
+            "uuid": "b88866c5236b482997e36238c73d072f"
+          }
+        ]
+      ],
+      "updateTime": 1703252791,
+      "createTime": 1703252791,
+      "histories": [],
+      "created_at": "2023-12-22 14:46:31",
+      "updated_at": "2023-12-22 14:46:31"
+    },
+    {
+      "uuid": "43ec60b11322e1bce1cdb479dfdd1b13",
+      "puuid": "f8e9f1940b842ab7a599556a02702ba0",
+      "title": "1-PCB_PCB_ATmega_lightSensor_blink_2",
+      "filename": "1-PCB_PCB_ATmega_lightSensor_blink_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 3,
+        "19c77e72422b43b59c26b9fa67af5de4": 5,
+        "398691f1f785460098bbe5ee6590333c": 4,
+        "7b706fa666744f94a830dffb572df5db": 1,
+        "bec79a4ea65a4f65ba290a03b598a762": 2,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "b62ea6b996094961a8aa59b4ff7ebc4f": 1,
+        "6bbb24bc2824424ca234524222d49524": 1
+      },
+      "BOM": [],
+      "updateTime": 1703252840,
+      "createTime": 1703252840,
+      "histories": [],
+      "created_at": "2023-12-22 14:47:20",
+      "updated_at": "2023-12-22 14:47:20"
+    }
+  ],
+  "sort": [],
+  "title": "ATmega_lightSensor_blink",
+  "foldername": "ATmega_lightSensor_blink",
+  "schfilename": "ATmega_lightSensor_blink.json",
+  "schfilemtime": 1703252791318
+}
